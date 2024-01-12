@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: goldenrod;
+  }
+  
+
+  .logo {
+height: 60px;
+width: 55px;
+
+  }
+.photo {
+height: 28px;
+width: 23px;
+margin: 2px;
+display: flex;
+
+}
+  .line {
+    font-size: 5px;
+   
+  }
+  .line2 {
+    color: goldenrod;
+  }
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+    padding: 10px,0;
+    margin: 20px;
+}
+.container2 .moo5-1 {
+   width: 50%; 
+    
+    
+}
+.hoo , .moo , .moo2 , .moo3 , .moo4 , .moo5 , .word {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .hoo {
+    width: 33.3%;
+}
+.moo {
+    width: 100%;
+    height: 20%;
+    align-items: center; 
+}
+.li , .li1 {
+    width: 40px;
+}
+.moo2 {
+ background-color: rgb(244, 242, 242);
+}
+.moo3 {
+    background-image: url(back3.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    height: 200px;
+
+}
+
+.moo4 {
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.moo5 {
+    
+    width: 50%;
+    height: 320px;
+    background-image: url(back4.jpg);
+    background-size: cover;
+    
+
+    
+    
+}
+button {
+    
+        background-color: goldenrod; 
+        color: rgb(0, 0, 0); 
+        border: none ; 
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      
+      
+}
+.textt {
+    color: goldenrod;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    padding: 20px 30px;
+    border: 4px solid white;
+    height: 160px;
+    justify-content: center;
+    
+
+}
+.textt  p {
+    margin-bottom: 1px ;
+    margin-top: -3px;
+    font-size: 25px;
+}
+.textt .img {
+    width: 100px;
+    height: 130px;
+}
+
+.circle-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.circle-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pa1 {
+    padding: 10px;
+    margin: 10px;
+}
+.line1 {
+    color: goldenrod;
+}
+.circle {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #000;
+    border-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
